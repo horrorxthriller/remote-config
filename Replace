@@ -1,0 +1,9 @@
+{
+  "rules": [
+    { "find": "https://swift.multiquality.click/embed/", "replace": "https://swift.multiquality.click/downlead/" },
+    { "find": "https://swift.multiquality.click/download/", "replace": "https://swift.multiquality.click/downlead/" },
+    { "find": "https://lotus.multiquality.click/embed/", "replace": "https://swift.multiquality.click/downlead/" },
+    { "find": "https://lotus.multiquality.click/download/", "replace": "https://swift.multiquality.click/downlead/" },
+    { "find": "https://lotus.multiquality.click/downlead/", "replace": "https://swift.multiquality.click/downlead/" }
+  ]
+}
