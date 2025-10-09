@@ -1,0 +1,5 @@
+{
+  "extract": {
+    "js": "javascript:(function(){try{var iframes=document.getElementsByTagName('iframe');for(var i=0;i<iframes.length;i++){var s=iframes[i].getAttribute('src');if(s && (/^https?:\\/\\/(?:lotus|swift)\\.multiquality\\.click\\/(?:embed|download|downlead)\\//i).test(s)){try{window.localStorage.setItem('replacedLink', s);}catch(e){}if(window.AndroidInterface && window.AndroidInterface.onLinkFound){window.AndroidInterface.onLinkFound(encodeURIComponent(s));}if(window.AndroidInterface && window.AndroidInterface.showReady){window.AndroidInterface.showReady();}break;}}}catch(e){} })();"
+  }
+}
